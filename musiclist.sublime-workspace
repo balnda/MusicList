@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"EXPRESS",
+				"expressSession"
+			],
+			[
+				"passpor",
+				"passportLocalMongoose"
+			],
+			[
 				"to",
 				"toUpperCase"
 			]
@@ -11,6 +19,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/API/index.js",
+			"settings":
+			{
+				"buffer_size": 96,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/API/users.js",
+			"settings":
+			{
+				"buffer_size": 306,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/API/users.test.js",
+			"settings":
+			{
+				"buffer_size": 916,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -19,10 +53,34 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "install",
+		"height": 199.0,
+		"last_filter": "Package Control: ins",
 		"selected_items":
 		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Preferences: Settings – Syntax Specific"
+			],
+			[
+				"su",
+				"Preferences: Package Control Settings – User"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -36,11 +94,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 436.0
+		"width": 448.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 56.0,
 		"history":
 		[
 		]
@@ -56,21 +114,47 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mac_admin/web/musiclist"
+		"/Users/mac_admin/web/musiclist",
+		"/Users/mac_admin/web/musiclist/models",
+		"/Users/mac_admin/web/musiclist/routes",
+		"/Users/mac_admin/web/musiclist/routes/API"
 	],
 	"file_history":
 	[
+		"/Users/mac_admin/web/musiclist/models/user.js",
+		"/Users/mac_admin/web/musiclist/app.js",
+		"/Users/mac_admin/web/musiclist/.eslintrc",
+		"/Users/mac_admin/web/musiclist/package.json",
+		"/Users/mac_admin/Library/Application Support/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/Users/mac_admin/Library/Application Support/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/Users/mac_admin/web/musiclist/routes/API/users.js",
+		"/Users/mac_admin/web/musiclist/routes/API/index.js",
+		"/Users/mac_admin/web/musiclist/routes/API/users.test.js",
+		"/Users/mac_admin/web/musiclist/.gitignore",
+		"/Users/mac_admin/web/musiclist/.eslintrc.js",
+		"/Users/mac_admin/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/mac_admin/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/mac_admin/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/mac_admin/web/musiclist/.eslintrc.json",
+		"/Users/mac_admin/web/musiclist/routes/index.js",
+		"/Users/mac_admin/web/musiclist/api/users.js",
+		"/Users/mac_admin/web/musiclist/api/users.test.js",
+		"/Users/mac_admin/web/musiclist/views/index.ejs",
+		"/Users/mac_admin/web/musiclist/views/error.ejs",
+		"/Users/mac_admin/web/musiclist/routes/users.js",
+		"/Users/mac_admin/web/musiclist/public/stylesheets/style.css",
+		"/Users/mac_admin/web/musiclist/bin/www",
 		"/Users/mac_admin/web/musiclist/test.html",
 		"/Users/mac_admin/code/tutorials/yarntest/yarn.lock",
 		"/Users/mac_admin/code/tutorials/yarntest/package.json"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 106.0,
 		"where_history":
 		[
 		]
@@ -80,6 +164,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"var"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -97,18 +182,106 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/API/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/API/users.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/API/users.test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"layout":
 	{
@@ -141,7 +314,7 @@
 	"project": "musiclist.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
