@@ -1,8 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
-import TestComponent from './testcomponent';
+import { AppContainer } from 'react-hot-loader';
+import Template from './components/Template';
 
-render(
-  <TestComponent headline="Test Headline for check" />,
-  document.querySelector('#react-app'),
-);
+const renderApp = (Component) => {
+  render(
+    <AppContainer>
+      <Component />
+    </AppContainer>,
+    document.querySelector('#react-app'),
+  );
+};
+
+renderApp(Template);
+
+if (module && module.hot) {
+  module.hot.accept('./component/Template', () => {
+    renderApp(Template);
+  });
+}
