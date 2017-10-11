@@ -46,10 +46,6 @@ app.use(passport.session());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/api', api);
-app.use('/api/users', users);
-app.use('/*', index);
-
 // Webpack Server
 const webpackCompiler = webpack(webpackConfig);
 app.use(webpackDevMiddleware(webpackCompiler, {
@@ -63,6 +59,12 @@ app.use(webpackDevMiddleware(webpackCompiler, {
 app.use(webpackHotMiddleware(webpackCompiler, {
   log: console.log,
 }));
+
+
+app.use('/api', api);
+app.use('/api/users', users);
+app.use('/*', index);
+
 
 
 passport.use(new LocalStrategy(User.authenticate()));
